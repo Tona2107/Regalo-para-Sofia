@@ -6,71 +6,90 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-    <header class="centro">
+    <header class="bgbarco",>
         <h1>Regalo para Sofía</h1>
+        <br>
+        <br>
+        <br>
+        <br>
     </header>
 
-<body class="centro">
+<body>
 
+    <div class="bgflores">
+        <hr><!--el hr sirve para hacer una separación con una línea y el br sin linea, y espero q no se me olvide porque
+                no queda muy estético creo-->
+        <p>Aquí puedes(o podrás) encontrar fotos nuestras, 
+            vídeos e incluso un videojuego.<br>
 
-    <hr><!--el hr sirve para hacer una separación con una línea y el br sin linea, y espero q no se me olvide porque
-            no queda muy estético creo-->
-    <p>Aquí puedes(o podrás) encontrar fotos nuestras, 
-         vídeos e incluso un videojuego.<br>
+        <a target="_blank" href ="https://tona2107.github.io/webdelarosa">
+            Este fue mi primer regalo de este tipo</a></p>
 
-    <a target="_blank" href ="https://tona2107.github.io/webdelarosa">
-        Este fue mi primer regalo de este tipo</a></p>
+        <p>Todavía estoy aprendiendo , pero cada poco tiempo puedes visitar esta web y ver el progreso</p>
 
-    <p>Y todavía estoy aprendiendo , pero cada poco tiempo puedes visitar esta web y ver el progreso</p>
+        <p> Además puedes subir cosas tú también</p>
 
-    <p> Además puedes subir cosas tú también</p>
+        <form><!--form sirve para hacer un formulario que guarda info. Label le pone nombre
+            e input es lo que guarda la info. for y id sirven para que se junten por asi decirlo,
+            y el name es un identificador MUY importante.Placeholder pone un txt dentro de la caja d txt-->
+            <label for="FotoNueva">Fotos nuevas</label>
 
-    <form><!--form sirve para hacer un formulario que guarda info. Label le pone nombre
-        e input es lo que guarda la info. for y id sirven para que se junten por asi decirlo,
-        y el name es un identificador MUY importante.Placeholder pone un txt dentro de la caja d txt-->
-        <label for="FotoNueva">Fotos nuevas</label>
+            <input type="file" ,id = "FotoNueva", name="form1", placeholder="Selecciona solo fotos">
+            <!--el textarea es igual que el input, con las propiedades de este pero con la formulación de label -->
+        </form>
+        <br>
+        
+        <section>
+            <article>
+                <h2 style="color: red;"><div class="color_de_letra">De las mejores fotos que tengo</div> &#x2764 </h2>
 
-        <input type="file" ,id = "FotoNueva", name="form1", placeholder="Selecciona solo fotos">
-        <!--el textarea es igual que el input, con las propiedades de este pero con la formulación de label -->
-    </form>
-    <br>
-    <section>
-        <article>
-            <h2 style="color: red;"><div class="color_de_fondo">De las mejores fotos que tengo</div> &#x2764 </h2>
-
-            <figure>
-                <img src="images/Foto tumbados.jpg" width="400" height="400"/>
-                <figcaption>Me encanta estar contigo tumbado en la cama simplemente abrazados</figcaption>
-            </figure>
-            
-        </article>
-    </section>
-    <section>
-        <article>
-            <h2>Te quiero de aquí a la luna</h2>
-            <img src="images/Fotocall.jpg" width="500" height="400"/>
-        </article>
-    </section>
-    <section>
-        <article>
-            <h2>A pasitos de tortuga</h2>
-            <figure>
-                <img src="images/Espalda a espalda.jpg" width="200" height="400"/>
-                <figcaption>
-                    Poder decir que me he graduado a tu lado es<br> de lo mejor que me puede pasar
-                </figcaption>
-            </figure>
-            
-        </article>
-    </section>
-    <section>
-        <article>
-            <video controls height="400">
-                <source src="images/holasoytonay.mp4" type="video/mp4" >
-            </video>
-        </article>
-    </section>
-   
+                <figure>
+                    <img src="images/Foto tumbados.jpg" width="400" height="400"/>
+                    <figcaption ><b>Me encanta estar contigo tumbado en la cama simplemente abrazados</b></figcaption>
+                </figure>
+                
+            </article>
+        </section>
+    </div>
+    <div>
+        <section>
+            <article>
+                <h2 >Te quiero de aquí a la luna</h2>
+                <img src="images/Fotocall.jpg" width="500" height="400"/>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>A pasitos de tortuga</h2>
+                <figure>
+                    <img src="images/Espalda a espalda.jpg" width="200" height="400"/>
+                    <figcaption>
+                        Poder decir que me he graduado a tu lado es<br> de lo mejor que me puede pasar
+                    </figcaption>
+                </figure>
+                
+            </article>
+        </section>
+        <section>
+            <article>
+                <video controls height="400">
+                    <source src="images/holasoytonay.mp4" type="video/mp4" >
+                </video>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>Me flipa poder ir de fiesta contigo</h2>
+                <figure>
+                    <img src="images/fotofiesta.jpg" width="200" height="400"/>
+                    <figcaption>
+                        Te amo fiestera
+                    </figcaption>
+                </figure>
+                
+            </article>
+        </section>
+    </div>
     <hr>
 </body>
 

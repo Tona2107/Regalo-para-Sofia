@@ -1,9 +1,24 @@
-.color_de_fondo{
+html{
+    text-align: center;
+    background-color: lightgreen;
+
+}
+
+.color_de_letra{
     color: rgb(57, 220, 166);
 }
-.color_de_fondo:hover{
+.color_de_letra:hover{
     color: rgb(45, 124, 119);
 }
-.centro{
-    text-align: center;
+
+.bgbarco{
+    
+    background-image:url(images/fotobarco.jpg) ;
+    background-size: cover;
+}
+
+.bgflores{
+    
+    background-image:url(images/fondo.png) ;
+    background-size: cover;
 }
