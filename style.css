@@ -3,7 +3,6 @@ html{
     background-color:#7FFFD4;
     font-family:"Amatic SC", sans-serif;
     font-size: x-large;
-    display: block;
 }
 
 .bgbarco{
@@ -16,8 +15,6 @@ html{
 .bgatard{
     background-image:url(images/AtardecerFondo.png);
     background-size: cover;
-    
-    
 }
 
 
@@ -27,6 +24,15 @@ html{
     background-size: cover;
     padding: 0;
 }
+
+
+.bgdelfin{
+    background-image:url(images/FondoDelfin.png);
+    background-size: cover;
+    padding: 0;
+}
+
+
 
 header{
     font-size: 4rem;
