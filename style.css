@@ -1,6 +1,6 @@
 html{
     text-align: center;
-    background-color: lightgreen;
+    background-color:#7FFFD4;
     font-family:"Amatic SC", sans-serif;
     font-size: x-large;
 }
@@ -36,13 +36,11 @@ header{
 }
 
 .borderr{
-    border-color:rgb(87, 143, 211);
+    border-color:rgb(70, 229, 179);
     border-radius: 10px;
     border-style:outset;
     border-width: 1em;
 }
 .margin{
-    
     margin: 20px 1px 20px 1px;
-    
 }
