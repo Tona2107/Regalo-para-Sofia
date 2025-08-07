@@ -1,7 +1,13 @@
 html{
     text-align: center;
     background-color: lightgreen;
-
+    font-family:"Amatic SC", sans-serif;
+    font-size: x-large;
+}
+header{
+    font-size: 4rem;
+    padding: 10px;
+    
 }
 
 .color_de_letra{
@@ -11,14 +17,32 @@ html{
     color: rgb(45, 124, 119);
 }
 
+.color_de_letra_white{
+    -webkit-text-stroke: 0.5px black;
+    color:aliceblue
+}
+
 .bgbarco{
-    
-    background-image:url(images/fotobarco.jpg) ;
+    background-image:url(images/Barcodevela2.png);
     background-size: cover;
+    
 }
 
 .bgflores{
     
     background-image:url(images/fondo.png) ;
     background-size: cover;
+    padding: 0;
+}
+
+.borderr{
+    border-color:rgb(87, 143, 211);
+    border-radius: 10px;
+    border-style:outset;
+    border-width: 1em;
+}
+.margin{
+    
+    margin: 20px 1px 20px 1px;
+    
 }
