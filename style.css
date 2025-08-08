@@ -3,6 +3,7 @@ html{
     background-color:#7FFFD4;
     font-family:"Amatic SC", sans-serif;
     font-size: x-large;
+    
 }
 
 .bgbarco{
@@ -48,7 +49,7 @@ header{
 }
 
 .color_de_letra_white{
-    -webkit-text-stroke: 0.3px rgb(225, 99, 21);
+    /*--webkit-text-stroke: 0.3px rgb(225, 99, 21);*/
     color:aliceblue
 }
 
@@ -64,7 +65,7 @@ header{
 }
 
 .bgblack{
-    background-color: beige;
+    background-color: rgb(129, 156, 214);
     margin: 0px 0px;
     padding: 0%;
 }   
