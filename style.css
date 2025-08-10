@@ -5,8 +5,13 @@ html{
     font-size: x-large;
     
 }
+body{
+    margin: 0px, 10px, 0px, 0px ;
+    padding: 0;
+}
 
 .bgbarco{
+    
     background-image:url(images/Barcodevela2.png);
     background-size: cover;
     
@@ -16,21 +21,17 @@ html{
 .bgatard{
     background-image:url(images/AtardecerFondo.png);
     background-size: cover;
+    background-position: center;
 }
 
-
-.bgflores{
-    
-    background-image:url(images/fondo.png) ;
-    background-size: cover;
-    padding: 0;
-}
 
 
 .bgdelfin{
     background-image:url(images/FondoDelfin.png);
     background-size: cover;
-    padding: 0;
+    background-position: center;
+    padding: 0px;
+    
 }
 
 
@@ -69,3 +70,11 @@ header{
     margin: 0px 0px;
     padding: 0%;
 }   
+
+.bgflores{
+    
+    background-image:url(images/fondo.png) ;
+    background-size: cover;
+    padding: 0;
+    position: sticky;
+}
