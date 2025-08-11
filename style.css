@@ -30,7 +30,11 @@ body{
     background-image:url(images/FondoDelfin.png);
     background-size: cover;
     background-position: center;
-    padding: 0px;
+}
+
+.bgboda{
+    background-image:url(images/fotoboda.png);
+    background-size: cover;
     
 }
 
@@ -77,4 +81,18 @@ header{
     background-size: cover;
     padding: 0;
     position: sticky;
+}
+
+table{
+    margin: 0 auto;
+}
+
+.margin0{
+    margin: 0;
+}
+.borderr2{
+    border-color:#ca65e3;
+    border-radius: 10px;
+    border-style:outset;
+    border-width: 1em;
 }
